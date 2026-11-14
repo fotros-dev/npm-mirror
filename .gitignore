@@ -1,0 +1,7 @@
+/data/
+/config.json
+node_modules/
+# real environment files never get committed (dev.env holds only non-secret dev values)
+.env
+*.env
+!dev.env

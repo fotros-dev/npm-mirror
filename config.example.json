@@ -1,0 +1,7 @@
+{
+  "ttl": { "packumentSeconds": 300, "negativeSeconds": 60 },
+  "breaker": { "threshold": 5, "openMs": 30000, "maxOpenMs": 300000 },
+  "timeouts": { "packumentMs": 3000, "tarballHeadersMs": 30000 },
+  "bodyLimitBytes": 104857600,
+  "tokens": []
+}
